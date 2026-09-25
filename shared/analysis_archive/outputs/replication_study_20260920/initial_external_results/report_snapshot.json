@@ -1,0 +1,1058 @@
+{
+  "summary": [
+    {
+      "study": "Frangieh",
+      "policy": "diversity",
+      "precision_a": 0.308391118695524,
+      "precision_b": 0.2115678457520015,
+      "gain_precision_a": -0.0258743217525596,
+      "gain_precision_b": -0.0369099658001151,
+      "inflation": 0.0110356440475555,
+      "scaled_inflation": 0.0287645072858732
+    },
+    {
+      "study": "Frangieh",
+      "policy": "extra_trees",
+      "precision_a": 0.3295723694664893,
+      "precision_b": 0.2444297388710321,
+      "gain_precision_a": -0.0046930709815943,
+      "gain_precision_b": -0.0040480726810845,
+      "inflation": -0.0006449983005097,
+      "scaled_inflation": -0.020380374591604
+    },
+    {
+      "study": "Frangieh",
+      "policy": "fixed_ridge",
+      "precision_a": 0.3256836340973228,
+      "precision_b": 0.2384254478601236,
+      "gain_precision_a": -0.0085818063507607,
+      "gain_precision_b": -0.0100523636919931,
+      "inflation": 0.0014705573412323,
+      "scaled_inflation": -0.0127061779015195
+    },
+    {
+      "study": "Frangieh",
+      "policy": "gated_random",
+      "precision_a": 0.3348770414756423,
+      "precision_b": 0.2468739883184957,
+      "gain_precision_a": 0.0006116010275586,
+      "gain_precision_b": -0.0016038232336209,
+      "inflation": 0.0022154242611796,
+      "scaled_inflation": 0.0015549235793292
+    },
+    {
+      "study": "Frangieh",
+      "policy": "greedy_ridge",
+      "precision_a": 0.3239153562277025,
+      "precision_b": 0.2387961575898803,
+      "gain_precision_a": -0.010350084220381,
+      "gain_precision_b": -0.0096816539622363,
+      "inflation": -0.0006684302581447,
+      "scaled_inflation": -0.0227598896792461
+    },
+    {
+      "study": "Frangieh",
+      "policy": "linear_ucb",
+      "precision_a": 0.318823564900328,
+      "precision_b": 0.2307964872532843,
+      "gain_precision_a": -0.0154418755477556,
+      "gain_precision_b": -0.0176813242988323,
+      "inflation": 0.0022394487510766,
+      "scaled_inflation": -0.0129416255493365
+    },
+    {
+      "study": "Frangieh",
+      "policy": "old_controller",
+      "precision_a": 0.3095247406459355,
+      "precision_b": 0.2109107813399739,
+      "gain_precision_a": -0.024740699802148,
+      "gain_precision_b": -0.0375670302121427,
+      "inflation": 0.0128263304099946,
+      "scaled_inflation": 0.0292228252604479
+    },
+    {
+      "study": "Frangieh",
+      "policy": "random",
+      "precision_a": 0.3342654404480836,
+      "precision_b": 0.2484778115521166,
+      "gain_precision_a": 0.0,
+      "gain_precision_b": 0.0,
+      "inflation": 0.0,
+      "scaled_inflation": 0.0
+    },
+    {
+      "study": "Papalexi",
+      "policy": "diversity",
+      "precision_a": 0.3351851851851851,
+      "precision_b": 0.3648148148148147,
+      "gain_precision_a": 0.087037037037037,
+      "gain_precision_b": 0.1037037037037037,
+      "inflation": -0.0166666666666666,
+      "scaled_inflation": -0.0927109262167812
+    },
+    {
+      "study": "Papalexi",
+      "policy": "extra_trees",
+      "precision_a": 0.2129629629629629,
+      "precision_b": 0.2018518518518518,
+      "gain_precision_a": -0.0351851851851851,
+      "gain_precision_b": -0.0592592592592592,
+      "inflation": 0.024074074074074,
+      "scaled_inflation": 0.0068396164685208
+    },
+    {
+      "study": "Papalexi",
+      "policy": "fixed_ridge",
+      "precision_a": 0.287037037037037,
+      "precision_b": 0.2777777777777777,
+      "gain_precision_a": 0.0388888888888888,
+      "gain_precision_b": 0.0166666666666666,
+      "inflation": 0.0222222222222222,
+      "scaled_inflation": 0.003134906191387
+    },
+    {
+      "study": "Papalexi",
+      "policy": "gated_random",
+      "precision_a": 0.2481481481481481,
+      "precision_b": 0.261111111111111,
+      "gain_precision_a": 0.0,
+      "gain_precision_b": 0.0,
+      "inflation": 0.0,
+      "scaled_inflation": 0.0
+    },
+    {
+      "study": "Papalexi",
+      "policy": "greedy_ridge",
+      "precision_a": 0.287037037037037,
+      "precision_b": 0.2777777777777777,
+      "gain_precision_a": 0.0388888888888888,
+      "gain_precision_b": 0.0166666666666666,
+      "inflation": 0.0222222222222222,
+      "scaled_inflation": 0.003134906191387
+    },
+    {
+      "study": "Papalexi",
+      "policy": "linear_ucb",
+      "precision_a": 0.324074074074074,
+      "precision_b": 0.3074074074074074,
+      "gain_precision_a": 0.0759259259259259,
+      "gain_precision_b": 0.0462962962962963,
+      "inflation": 0.0296296296296296,
+      "scaled_inflation": -0.0332307411117546
+    },
+    {
+      "study": "Papalexi",
+      "policy": "old_controller",
+      "precision_a": 0.3351851851851851,
+      "precision_b": 0.3648148148148147,
+      "gain_precision_a": 0.087037037037037,
+      "gain_precision_b": 0.1037037037037037,
+      "inflation": -0.0166666666666666,
+      "scaled_inflation": -0.0927109262167812
+    },
+    {
+      "study": "Papalexi",
+      "policy": "random",
+      "precision_a": 0.2481481481481481,
+      "precision_b": 0.261111111111111,
+      "gain_precision_a": 0.0,
+      "gain_precision_b": 0.0,
+      "inflation": 0.0,
+      "scaled_inflation": 0.0
+    }
+  ],
+  "comparisons": [
+    {
+      "kind": "inflation",
+      "study": "Frangieh",
+      "policy": "diversity",
+      "baseline": "random_adjusted_A_minus_B",
+      "effect": 0.0110356440475555,
+      "ci_low": -0.0004995383635013,
+      "ci_high": 0.0228939733543628,
+      "p": 0.0767820744762263,
+      "holm_p": 0.9551615471502664
+    },
+    {
+      "kind": "inflation",
+      "study": "Frangieh",
+      "policy": "extra_trees",
+      "baseline": "random_adjusted_A_minus_B",
+      "effect": -0.0006449983005097,
+      "ci_low": -0.012441969544919,
+      "ci_high": 0.0117178654940991,
+      "p": 0.9184334614438784,
+      "holm_p": 1.0
+    },
+    {
+      "kind": "inflation",
+      "study": "Frangieh",
+      "policy": "fixed_ridge",
+      "baseline": "random_adjusted_A_minus_B",
+      "effect": 0.0014705573412323,
+      "ci_low": -0.0116482954732151,
+      "ci_high": 0.0143163551293632,
+      "p": 0.8265182208053348,
+      "holm_p": 1.0
+    },
+    {
+      "kind": "inflation",
+      "study": "Frangieh",
+      "policy": "gated_random",
+      "baseline": "random_adjusted_A_minus_B",
+      "effect": 0.0022154242611796,
+      "ci_low": -0.004119421645419,
+      "ci_high": 0.0084710001244317,
+      "p": 0.5037101869995138,
+      "holm_p": 1.0
+    },
+    {
+      "kind": "inflation",
+      "study": "Frangieh",
+      "policy": "greedy_ridge",
+      "baseline": "random_adjusted_A_minus_B",
+      "effect": -0.0006684302581447,
+      "ci_low": -0.0119394092668813,
+      "ci_high": 0.0102103893529493,
+      "p": 0.9084600403903392,
+      "holm_p": 1.0
+    },
+    {
+      "kind": "inflation",
+      "study": "Frangieh",
+      "policy": "linear_ucb",
+      "baseline": "random_adjusted_A_minus_B",
+      "effect": 0.0022394487510766,
+      "ci_low": -0.0091745406124305,
+      "ci_high": 0.0134567618435079,
+      "p": 0.7083423011521114,
+      "holm_p": 1.0
+    },
+    {
+      "kind": "inflation",
+      "study": "Frangieh",
+      "policy": "old_controller",
+      "baseline": "random_adjusted_A_minus_B",
+      "effect": 0.0128263304099946,
+      "ci_low": 0.0018858860969846,
+      "ci_high": 0.025380415138876,
+      "p": 0.0452811408900083,
+      "holm_p": 0.6339359724601173
+    },
+    {
+      "kind": "inflation",
+      "study": "Papalexi",
+      "policy": "diversity",
+      "baseline": "random_adjusted_A_minus_B",
+      "effect": -0.0166666666666666,
+      "ci_low": -0.0555555555555555,
+      "ci_high": 0.024074074074074,
+      "p": 0.4263680621620707,
+      "holm_p": 1.0
+    },
+    {
+      "kind": "inflation",
+      "study": "Papalexi",
+      "policy": "extra_trees",
+      "baseline": "random_adjusted_A_minus_B",
+      "effect": 0.024074074074074,
+      "ci_low": 0.0018518518518518,
+      "ci_high": 0.05,
+      "p": 0.0734739651654051,
+      "holm_p": 0.9551615471502664
+    },
+    {
+      "kind": "inflation",
+      "study": "Papalexi",
+      "policy": "fixed_ridge",
+      "baseline": "random_adjusted_A_minus_B",
+      "effect": 0.0222222222222222,
+      "ci_low": -0.0055555555555555,
+      "ci_high": 0.05,
+      "p": 0.1360127739570522,
+      "holm_p": 1.0
+    },
+    {
+      "kind": "inflation",
+      "study": "Papalexi",
+      "policy": "gated_random",
+      "baseline": "random_adjusted_A_minus_B",
+      "effect": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "kind": "inflation",
+      "study": "Papalexi",
+      "policy": "greedy_ridge",
+      "baseline": "random_adjusted_A_minus_B",
+      "effect": 0.0222222222222222,
+      "ci_low": -0.0037037037037036,
+      "ci_high": 0.05,
+      "p": 0.1360127739570522,
+      "holm_p": 1.0
+    },
+    {
+      "kind": "inflation",
+      "study": "Papalexi",
+      "policy": "linear_ucb",
+      "baseline": "random_adjusted_A_minus_B",
+      "effect": 0.0296296296296296,
+      "ci_low": -0.0018518518518518,
+      "ci_high": 0.0629629629629629,
+      "p": 0.0843435511842816,
+      "holm_p": 0.9551615471502664
+    },
+    {
+      "kind": "inflation",
+      "study": "Papalexi",
+      "policy": "old_controller",
+      "baseline": "random_adjusted_A_minus_B",
+      "effect": -0.0166666666666666,
+      "ci_low": -0.0555555555555555,
+      "ci_high": 0.0259259259259259,
+      "p": 0.4263680621620707,
+      "holm_p": 1.0
+    },
+    {
+      "kind": "method",
+      "study": "Frangieh",
+      "policy": "gated_random",
+      "baseline": "random",
+      "effect": -0.0016038232336209,
+      "ci_low": -0.0056547912428041,
+      "ci_high": 0.002364438045096,
+      "p": 0.4497028733790208,
+      "holm_p": 1.0
+    },
+    {
+      "kind": "method",
+      "study": "Frangieh",
+      "policy": "gated_random",
+      "baseline": "greedy_ridge",
+      "effect": 0.0080778307286153,
+      "ci_low": -0.0002098681938916,
+      "ci_high": 0.0161765482194674,
+      "p": 0.0669361173144684,
+      "holm_p": 0.4016167038868106
+    },
+    {
+      "kind": "method",
+      "study": "Frangieh",
+      "policy": "gated_random",
+      "baseline": "linear_ucb",
+      "effect": 0.0160775010652114,
+      "ci_low": 0.0062170262529498,
+      "ci_high": 0.0259231504509439,
+      "p": 0.00360969351352,
+      "holm_p": 0.02887754810816
+    },
+    {
+      "kind": "method",
+      "study": "Frangieh",
+      "policy": "gated_random",
+      "baseline": "extra_trees",
+      "effect": 0.0024442494474636,
+      "ci_low": -0.0064434234036238,
+      "ci_high": 0.0116170649830131,
+      "p": 0.6091996455927063,
+      "holm_p": 1.0
+    },
+    {
+      "kind": "method",
+      "study": "Frangieh",
+      "policy": "gated_random",
+      "baseline": "old_controller",
+      "effect": 0.0359632069785217,
+      "ci_low": 0.0287949038454805,
+      "ci_high": 0.0429181648306246,
+      "p": 1.6804210691871736e-10,
+      "holm_p": 1.6804210691871735e-09
+    },
+    {
+      "kind": "method",
+      "study": "Papalexi",
+      "policy": "gated_random",
+      "baseline": "random",
+      "effect": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "kind": "method",
+      "study": "Papalexi",
+      "policy": "gated_random",
+      "baseline": "greedy_ridge",
+      "effect": -0.0166666666666666,
+      "ci_low": -0.0611111111111111,
+      "ci_high": 0.0314814814814814,
+      "p": 0.4901830909171836,
+      "holm_p": 1.0
+    },
+    {
+      "kind": "method",
+      "study": "Papalexi",
+      "policy": "gated_random",
+      "baseline": "linear_ucb",
+      "effect": -0.0462962962962962,
+      "ci_low": -0.0944444444444444,
+      "ci_high": 0.0055555555555555,
+      "p": 0.08359440835099,
+      "holm_p": 0.4179720417549502
+    },
+    {
+      "kind": "method",
+      "study": "Papalexi",
+      "policy": "gated_random",
+      "baseline": "extra_trees",
+      "effect": 0.0592592592592592,
+      "ci_low": 0.0185185185185185,
+      "ci_high": 0.1037037037037036,
+      "p": 0.0137467976931283,
+      "holm_p": 0.0962275838518985
+    },
+    {
+      "kind": "method",
+      "study": "Papalexi",
+      "policy": "gated_random",
+      "baseline": "old_controller",
+      "effect": -0.1037037037037037,
+      "ci_low": -0.1574074074074074,
+      "ci_high": -0.0481481481481481,
+      "p": 0.001023623364846,
+      "holm_p": 0.0092126102836144
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Frangieh_Coculture_IFNG",
+      "study": "Frangieh",
+      "condition": "Co-culture",
+      "program": "IFNG",
+      "n_candidates": 137,
+      "n_development": 42,
+      "spearman_AB": 0.2783663449511826,
+      "common_before_feature_match": 205,
+      "threshold_a": 0.015374114075273471,
+      "threshold_b": 0.040585661966421945
+    },
+    {
+      "task": "Frangieh_Coculture_TNFA",
+      "study": "Frangieh",
+      "condition": "Co-culture",
+      "program": "TNFA",
+      "n_candidates": 137,
+      "n_development": 42,
+      "spearman_AB": 0.17199488491048592,
+      "common_before_feature_match": 205,
+      "threshold_a": 0.026564570709070492,
+      "threshold_b": 0.038178935127822736
+    },
+    {
+      "task": "Frangieh_Coculture_IL2STAT5",
+      "study": "Frangieh",
+      "condition": "Co-culture",
+      "program": "IL2STAT5",
+      "n_candidates": 137,
+      "n_development": 42,
+      "spearman_AB": 0.1368473127111841,
+      "common_before_feature_match": 205,
+      "threshold_a": 0.007220593136687037,
+      "threshold_b": 0.01486912169207147
+    },
+    {
+      "task": "Frangieh_Control_IFNG",
+      "study": "Frangieh",
+      "condition": "Control",
+      "program": "IFNG",
+      "n_candidates": 131,
+      "n_development": 42,
+      "spearman_AB": 0.02791864623925693,
+      "common_before_feature_match": 199,
+      "threshold_a": 0.013078123908498608,
+      "threshold_b": 0.016199462738971628
+    },
+    {
+      "task": "Frangieh_Control_TNFA",
+      "study": "Frangieh",
+      "condition": "Control",
+      "program": "TNFA",
+      "n_candidates": 131,
+      "n_development": 42,
+      "spearman_AB": 0.013211978860833824,
+      "common_before_feature_match": 199,
+      "threshold_a": 0.03349210546548136,
+      "threshold_b": 0.05338761745860966
+    },
+    {
+      "task": "Frangieh_Control_IL2STAT5",
+      "study": "Frangieh",
+      "condition": "Control",
+      "program": "IL2STAT5",
+      "n_candidates": 131,
+      "n_development": 42,
+      "spearman_AB": 0.008786633214114131,
+      "common_before_feature_match": 199,
+      "threshold_a": 0.014841548570547154,
+      "threshold_b": 0.014276457819801008
+    },
+    {
+      "task": "Frangieh_IFNg_IFNG",
+      "study": "Frangieh",
+      "condition": "IFNγ",
+      "program": "IFNG",
+      "n_candidates": 145,
+      "n_development": 44,
+      "spearman_AB": 0.19102109903952133,
+      "common_before_feature_match": 215,
+      "threshold_a": 0.019720423956075345,
+      "threshold_b": 0.029242116810756544
+    },
+    {
+      "task": "Frangieh_IFNg_TNFA",
+      "study": "Frangieh",
+      "condition": "IFNγ",
+      "program": "TNFA",
+      "n_candidates": 145,
+      "n_development": 44,
+      "spearman_AB": 0.02388206581640686,
+      "common_before_feature_match": 215,
+      "threshold_a": 0.026420836956434834,
+      "threshold_b": 0.053023583254997245
+    },
+    {
+      "task": "Frangieh_IFNg_IL2STAT5",
+      "study": "Frangieh",
+      "condition": "IFNγ",
+      "program": "IL2STAT5",
+      "n_candidates": 145,
+      "n_development": 44,
+      "spearman_AB": 0.10071248622264209,
+      "common_before_feature_match": 215,
+      "threshold_a": 0.008918381450848863,
+      "threshold_b": 0.025515420706839098
+    },
+    {
+      "task": "Papalexi_IFNg_IFNG",
+      "study": "Papalexi",
+      "condition": "IFNg",
+      "program": "IFNG",
+      "n_candidates": 16,
+      "n_development": 5,
+      "spearman_AB": 0.7705882352941176,
+      "common_before_feature_match": 24,
+      "threshold_a": 0.0,
+      "threshold_b": 0.06701325347569419
+    },
+    {
+      "task": "Papalexi_IFNg_TNFA",
+      "study": "Papalexi",
+      "condition": "IFNg",
+      "program": "TNFA",
+      "n_candidates": 16,
+      "n_development": 5,
+      "spearman_AB": 0.7088235294117646,
+      "common_before_feature_match": 24,
+      "threshold_a": 0.0,
+      "threshold_b": 0.06590207407424882
+    },
+    {
+      "task": "Papalexi_IFNg_IL2STAT5",
+      "study": "Papalexi",
+      "condition": "IFNg",
+      "program": "IL2STAT5",
+      "n_candidates": 16,
+      "n_development": 5,
+      "spearman_AB": 0.8823529411764707,
+      "common_before_feature_match": 24,
+      "threshold_a": 0.002882032925948321,
+      "threshold_b": 0.0342918764281918
+    }
+  ],
+  "exclusions": [
+    {
+      "study": "Shifrut",
+      "condition": "NoStim",
+      "reason": "small cohort per locked rule",
+      "matched": 17,
+      "development": 3
+    },
+    {
+      "study": "Shifrut",
+      "condition": "Stim",
+      "reason": "small cohort per locked rule",
+      "matched": 17,
+      "development": 3
+    }
+  ],
+  "diagnosis": {
+    "controller_exploration_fraction": 0.9284722222222223,
+    "median_observed_loo_r2": -0.4563575991294051,
+    "norm_ratio_by_policy": {
+      "adaptive_ridge": 1.1040183492832714,
+      "controller": 1.2604010651508968,
+      "controller_no_feedback": 1.2653050316704644,
+      "fixed_ridge": 1.0828191647926966,
+      "permuted_features": 0.9975620281365183,
+      "random": 1.0020769606033961,
+      "shuffled_feedback": 1.260278832912445
+    },
+    "median_replica_spearman": 0.17638261984437748,
+    "interpretation": "Associational diagnosis on previously seen CD4 development data; does not establish causal mediation or generalize automatically."
+  },
+  "protocol": {
+    "locked_utc": "2026-09-20T02:39:08.411427+00:00",
+    "source_sha256": "1fabcf83485fc688dd84847fcf166c5fcea0a45fc70639c4095aefcb8cfb730e",
+    "development": "CD4 20260916 only; external metadata inspected but scores not inspected",
+    "external_studies": {
+      "Frangieh": "FrangiehIzar2021_RNA",
+      "Papalexi": "PapalexiSatija2021_eccite_RNA",
+      "Shifrut": "ShifrutMarson2018"
+    },
+    "programs": {
+      "IFNG": "Interferon Gamma Response",
+      "TNFA": "TNF-alpha Signaling via NF-kB",
+      "IL2STAT5": "IL-2/STAT5 Signaling"
+    },
+    "policies": [
+      "random",
+      "fixed_ridge",
+      "greedy_ridge",
+      "linear_ucb",
+      "diversity",
+      "extra_trees",
+      "gated_random",
+      "old_controller"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "direction": "program relative suppression",
+    "external_split": "Frangieh: within each condition, lexically sorted single guides alternating A/B; NT guides split similarly. Papalexi: rep1-tx A, rep3-tx B, rep4-tx C robustness. Shifrut: D1 A, D2 B in each condition; all targeting guides pooled per gene.",
+    "qc": "single unambiguous guide; min20 cells per target per side; >=10 program genes; controls min50; pretrained feature availability; no effect-size based inclusion",
+    "development_genes": "sha256 gene ID first 8 hex mod5==0; need >=4 development and >=12 candidates, otherwise skip explicitly",
+    "budget": "min(80,max(6,floor(0.30*N))); initial=min(16,max(3,B//4)); batch=max(2,initial)",
+    "outcome": "pseudobulk sum counts, CP10K, log2 ratio to separately computed controls with fixed pseudocount0.1; whole-gene mean minus program mean excluding own gene",
+    "primary_evaluation": "same single-panel hit definition on A vs B (NOT conjunction); threshold max(0,development q75); compare uplift over paired random; continuous gain normalized by development SD sensitivity",
+    "method_revision": "fixed ridge alpha10; LOO_R2<=0 => uniform random instead of novelty; positive => at most25% predicted top per batch and rest uniform; no external tuning",
+    "statistical_unit": "within task paired initial pools; average tasks within study, then studies equally; no claim all tasks are independent biological replicates",
+    "success_method": "positive confirmed gain over random and greedy_ridge with Holm p<.05 in every external study; no test-set tuning",
+    "success_evaluation": "positive A-minus-B random-adjusted gain inflation in at least2 independent studies, across at least3 non-oracle policy families; report absent/negative findings; compare winning policy A ranking versus B",
+    "limitations": "numeric policies are representative decision mechanisms, not replications of named full LLM agents; internal protocol lock is not public preregistration"
+  },
+  "verification": {
+    "traces": 2880,
+    "same_initial_pools": true,
+    "budgets_and_unique": true,
+    "all_endpoints_recomputed": true,
+    "confirmed_labels_never_policy_arguments": true,
+    "source_sha256": "1fabcf83485fc688dd84847fcf166c5fcea0a45fc70639c4095aefcb8cfb730e"
+  },
+  "integrity": {
+    "source_unchanged_since_lock": true,
+    "exact_loo_check": true,
+    "hidden_label_invariance": true,
+    "supplement_scope": "evaluation only; no policy or parameter refitting; task-wise and seed-holdout winner analyses refine original locked winner diagnostic"
+  },
+  "winner_summary": [
+    {
+      "kind": "per_seed_optimistic",
+      "study": "Frangieh",
+      "apparent_gain": 0.055955353232721335,
+      "replicated_gain": -0.01001174829875907,
+      "inflation": 0.06596710153148042,
+      "ci_low": 0.05548184588882262,
+      "ci_high": 0.07713474695371082,
+      "p": 1.6445280615589726e-12,
+      "holm_p": 3.289056123117945e-12
+    },
+    {
+      "kind": "per_seed_optimistic",
+      "study": "Papalexi",
+      "apparent_gain": 0.14444444444444443,
+      "replicated_gain": 0.12962962962962962,
+      "inflation": 0.01481481481481482,
+      "ci_low": -0.018518518518518504,
+      "ci_high": 0.05,
+      "p": 0.4082743945175743,
+      "holm_p": 0.4082743945175743
+    },
+    {
+      "kind": "task_wide",
+      "study": "Frangieh",
+      "apparent_gain": 0.022621104167710324,
+      "replicated_gain": -0.011121884424966288,
+      "inflation": 0.03374298859267662,
+      "ci_low": 0.02541063428423988,
+      "ci_high": 0.04200219479336513,
+      "p": 1.426437191706062e-08,
+      "holm_p": 2.852874383412124e-08
+    },
+    {
+      "kind": "task_wide",
+      "study": "Papalexi",
+      "apparent_gain": 0.08703703703703705,
+      "replicated_gain": 0.10370370370370371,
+      "inflation": -0.016666666666666666,
+      "ci_low": -0.05555555555555555,
+      "ci_high": 0.024074074074074074,
+      "p": 0.42636806216207046,
+      "holm_p": 0.42636806216207046
+    },
+    {
+      "kind": "seed_holdout",
+      "study": "Frangieh",
+      "apparent_gain": 0.01644934199292301,
+      "replicated_gain": -0.013119202947147739,
+      "inflation": 0.02956854494007075,
+      "ci_low": 0.01862834167995824,
+      "ci_high": 0.04044130725544981,
+      "p": 0.00015725083251988425,
+      "holm_p": 0.0003145016650397685
+    },
+    {
+      "kind": "seed_holdout",
+      "study": "Papalexi",
+      "apparent_gain": 0.06666666666666665,
+      "replicated_gain": 0.1259259259259259,
+      "inflation": -0.059259259259259255,
+      "ci_low": -0.1037037037037037,
+      "ci_high": -0.014814814814814805,
+      "p": 0.02660758019758413,
+      "holm_p": 0.02660758019758413
+    }
+  ],
+  "ranks": [
+    {
+      "task": "Frangieh_Coculture_IFNG",
+      "study": "Frangieh",
+      "spearman_policy_ranking": 0.4642857142857144,
+      "winner_A": "gated_random",
+      "winner_B": "gated_random",
+      "winner_transfer": true
+    },
+    {
+      "task": "Frangieh_Coculture_IL2STAT5",
+      "study": "Frangieh",
+      "spearman_policy_ranking": -0.3928571428571429,
+      "winner_A": "diversity",
+      "winner_B": "extra_trees",
+      "winner_transfer": false
+    },
+    {
+      "task": "Frangieh_Coculture_TNFA",
+      "study": "Frangieh",
+      "spearman_policy_ranking": 0.4818120558297158,
+      "winner_A": "linear_ucb",
+      "winner_B": "fixed_ridge",
+      "winner_transfer": false
+    },
+    {
+      "task": "Frangieh_Control_IFNG",
+      "study": "Frangieh",
+      "spearman_policy_ranking": -0.0357142857142857,
+      "winner_A": "extra_trees",
+      "winner_B": "gated_random",
+      "winner_transfer": false
+    },
+    {
+      "task": "Frangieh_Control_IL2STAT5",
+      "study": "Frangieh",
+      "spearman_policy_ranking": 0.2882999880625789,
+      "winner_A": "gated_random",
+      "winner_B": "greedy_ridge",
+      "winner_transfer": false
+    },
+    {
+      "task": "Frangieh_Control_TNFA",
+      "study": "Frangieh",
+      "spearman_policy_ranking": 0.3603749850782236,
+      "winner_A": "gated_random",
+      "winner_B": "extra_trees",
+      "winner_transfer": false
+    },
+    {
+      "task": "Frangieh_IFNg_IFNG",
+      "study": "Frangieh",
+      "spearman_policy_ranking": -0.4144312328399571,
+      "winner_A": "linear_ucb",
+      "winner_B": "diversity",
+      "winner_transfer": false
+    },
+    {
+      "task": "Frangieh_IFNg_IL2STAT5",
+      "study": "Frangieh",
+      "spearman_policy_ranking": -0.4684874806016907,
+      "winner_A": "extra_trees",
+      "winner_B": "gated_random",
+      "winner_transfer": false
+    },
+    {
+      "task": "Frangieh_IFNg_TNFA",
+      "study": "Frangieh",
+      "spearman_policy_ranking": -0.4504687313477795,
+      "winner_A": "old_controller",
+      "winner_B": "fixed_ridge",
+      "winner_transfer": false
+    },
+    {
+      "task": "Papalexi_IFNg_IFNG",
+      "study": "Papalexi",
+      "spearman_policy_ranking": 0.7777777777777779,
+      "winner_A": "diversity",
+      "winner_B": "diversity",
+      "winner_transfer": true
+    },
+    {
+      "task": "Papalexi_IFNg_IL2STAT5",
+      "study": "Papalexi",
+      "spearman_policy_ranking": 0.970142500145332,
+      "winner_A": "diversity",
+      "winner_B": "diversity",
+      "winner_transfer": true
+    },
+    {
+      "task": "Papalexi_IFNg_TNFA",
+      "study": "Papalexi",
+      "spearman_policy_ranking": 1.0,
+      "winner_A": "diversity",
+      "winner_B": "diversity",
+      "winner_transfer": true
+    }
+  ],
+  "sensitivity": [
+    {
+      "quantile": 0.6,
+      "study": "Frangieh",
+      "policy": "diversity",
+      "inflation": 0.02607492085654309
+    },
+    {
+      "quantile": 0.6,
+      "study": "Frangieh",
+      "policy": "extra_trees",
+      "inflation": 0.004595195425220006
+    },
+    {
+      "quantile": 0.6,
+      "study": "Frangieh",
+      "policy": "fixed_ridge",
+      "inflation": 0.005864830463053188
+    },
+    {
+      "quantile": 0.6,
+      "study": "Frangieh",
+      "policy": "gated_random",
+      "inflation": 0.004508039316131585
+    },
+    {
+      "quantile": 0.6,
+      "study": "Frangieh",
+      "policy": "greedy_ridge",
+      "inflation": 0.005844576633005446
+    },
+    {
+      "quantile": 0.6,
+      "study": "Frangieh",
+      "policy": "linear_ucb",
+      "inflation": 0.009129844826573887
+    },
+    {
+      "quantile": 0.6,
+      "study": "Frangieh",
+      "policy": "old_controller",
+      "inflation": 0.02645979749401946
+    },
+    {
+      "quantile": 0.6,
+      "study": "Frangieh",
+      "policy": "random",
+      "inflation": 0.0
+    },
+    {
+      "quantile": 0.6,
+      "study": "Papalexi",
+      "policy": "diversity",
+      "inflation": -0.04444444444444443
+    },
+    {
+      "quantile": 0.6,
+      "study": "Papalexi",
+      "policy": "extra_trees",
+      "inflation": 0.035185185185185194
+    },
+    {
+      "quantile": 0.6,
+      "study": "Papalexi",
+      "policy": "fixed_ridge",
+      "inflation": 0.04074074074074075
+    },
+    {
+      "quantile": 0.6,
+      "study": "Papalexi",
+      "policy": "gated_random",
+      "inflation": 0.0
+    },
+    {
+      "quantile": 0.6,
+      "study": "Papalexi",
+      "policy": "greedy_ridge",
+      "inflation": 0.04074074074074075
+    },
+    {
+      "quantile": 0.6,
+      "study": "Papalexi",
+      "policy": "linear_ucb",
+      "inflation": 0.01481481481481482
+    },
+    {
+      "quantile": 0.6,
+      "study": "Papalexi",
+      "policy": "old_controller",
+      "inflation": -0.04444444444444443
+    },
+    {
+      "quantile": 0.6,
+      "study": "Papalexi",
+      "policy": "random",
+      "inflation": 0.0
+    },
+    {
+      "quantile": 0.8,
+      "study": "Frangieh",
+      "policy": "diversity",
+      "inflation": -0.002756513949556113
+    },
+    {
+      "quantile": 0.8,
+      "study": "Frangieh",
+      "policy": "extra_trees",
+      "inflation": -0.009318862618163053
+    },
+    {
+      "quantile": 0.8,
+      "study": "Frangieh",
+      "policy": "fixed_ridge",
+      "inflation": -0.0058987125351277385
+    },
+    {
+      "quantile": 0.8,
+      "study": "Frangieh",
+      "policy": "gated_random",
+      "inflation": 0.00013849094960836412
+    },
+    {
+      "quantile": 0.8,
+      "study": "Frangieh",
+      "policy": "greedy_ridge",
+      "inflation": -0.005314260258484116
+    },
+    {
+      "quantile": 0.8,
+      "study": "Frangieh",
+      "policy": "linear_ucb",
+      "inflation": -0.006309498992425819
+    },
+    {
+      "quantile": 0.8,
+      "study": "Frangieh",
+      "policy": "old_controller",
+      "inflation": -0.001583946469558117
+    },
+    {
+      "quantile": 0.8,
+      "study": "Frangieh",
+      "policy": "random",
+      "inflation": 0.0
+    },
+    {
+      "quantile": 0.8,
+      "study": "Papalexi",
+      "policy": "diversity",
+      "inflation": -0.0018518518518518537
+    },
+    {
+      "quantile": 0.8,
+      "study": "Papalexi",
+      "policy": "extra_trees",
+      "inflation": -0.0037037037037037073
+    },
+    {
+      "quantile": 0.8,
+      "study": "Papalexi",
+      "policy": "fixed_ridge",
+      "inflation": 0.009259259259259255
+    },
+    {
+      "quantile": 0.8,
+      "study": "Papalexi",
+      "policy": "gated_random",
+      "inflation": 0.0
+    },
+    {
+      "quantile": 0.8,
+      "study": "Papalexi",
+      "policy": "greedy_ridge",
+      "inflation": 0.009259259259259255
+    },
+    {
+      "quantile": 0.8,
+      "study": "Papalexi",
+      "policy": "linear_ucb",
+      "inflation": 0.0037037037037037004
+    },
+    {
+      "quantile": 0.8,
+      "study": "Papalexi",
+      "policy": "old_controller",
+      "inflation": -0.0018518518518518537
+    },
+    {
+      "quantile": 0.8,
+      "study": "Papalexi",
+      "policy": "random",
+      "inflation": 0.0
+    }
+  ],
+  "success_checks": {
+    "method_success": false,
+    "evaluation_success": false,
+    "positive_inflation_studies": [],
+    "positive_inflation_policies": []
+  },
+  "runs": 2880,
+  "third_replicate_records": 720
+}

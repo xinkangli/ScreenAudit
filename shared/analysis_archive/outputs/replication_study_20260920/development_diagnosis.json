@@ -1,0 +1,15 @@
+{
+  "controller_exploration_fraction": 0.9284722222222223,
+  "median_observed_loo_r2": -0.4563575991294051,
+  "norm_ratio_by_policy": {
+    "adaptive_ridge": 1.1040183492832714,
+    "controller": 1.2604010651508968,
+    "controller_no_feedback": 1.2653050316704644,
+    "fixed_ridge": 1.0828191647926966,
+    "permuted_features": 0.9975620281365183,
+    "random": 1.0020769606033961,
+    "shuffled_feedback": 1.260278832912445
+  },
+  "median_replica_spearman": 0.17638261984437748,
+  "interpretation": "Associational diagnosis on previously seen CD4 development data; does not establish causal mediation or generalize automatically."
+}

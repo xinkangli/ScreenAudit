@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-20T02:47:52.726765+00:00",
+  "change": "CSC column streaming, CSR row streaming; arithmetic and all scientific choices unchanged",
+  "reason": "Frangieh X is CSC with 740736244 nonzeros; repeated row reads reread the complete sparse payload",
+  "locked_source_sha256": "1fabcf83485fc688dd84847fcf166c5fcea0a45fc70639c4095aefcb8cfb730e",
+  "adapter_sha256": "055d41b25688a13e25e913366770d2993edc88be0f089f748393720caa00bfa1",
+  "validation": "first20genes first12groups exact equality to independent direct group sums; assertions run per study",
+  "stage": "before any external outcome inspection or policy run"
+}

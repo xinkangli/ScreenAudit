@@ -1,0 +1,34 @@
+{
+  "_id": "694592a639496d01d0cf699a",
+  "id": "wanglab/scGPT-human",
+  "private": false,
+  "tags": [
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 1,
+  "modelId": "wanglab/scGPT-human",
+  "author": "wanglab",
+  "sha": "a24c237737a40f3720f75abb555489e9fe753be6",
+  "lastModified": "2025-12-19T18:01:52.000Z",
+  "gated": false,
+  "disabled": false,
+  "config": {},
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "args.json"
+    },
+    {
+      "rfilename": "best_model.pt"
+    },
+    {
+      "rfilename": "vocab.json"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2025-12-19T18:00:06.000Z",
+  "usedStorage": 205385258
+}

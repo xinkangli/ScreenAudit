@@ -1,0 +1,17 @@
+{
+  "checks": [
+    {
+      "policy": "random",
+      "maximum_endpoint_error": 8.326672684688674e-17
+    },
+    {
+      "policy": "geneformer_updating",
+      "maximum_endpoint_error": 8.326672684688674e-17
+    }
+  ],
+  "tasks": 12,
+  "runs": 1080,
+  "new_scgpt_runs": 360,
+  "development_tokens": 12033,
+  "no_response_based_tuning": true
+}

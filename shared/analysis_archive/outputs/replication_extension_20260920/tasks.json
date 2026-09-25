@@ -1,0 +1,38 @@
+[
+  {
+    "task": "Tian_all_IFNG",
+    "study": "Tian",
+    "condition": "all",
+    "program": "IFNG",
+    "n_candidates": 143,
+    "n_development": 26,
+    "spearman_AB": -0.03230572244656752,
+    "common_before_feature_match": 180,
+    "threshold_a": 0.020881728883122504,
+    "threshold_b": 0.008740431751200019
+  },
+  {
+    "task": "Tian_all_TNFA",
+    "study": "Tian",
+    "condition": "all",
+    "program": "TNFA",
+    "n_candidates": 143,
+    "n_development": 26,
+    "spearman_AB": 0.002499261302078203,
+    "common_before_feature_match": 180,
+    "threshold_a": 0.02135182861760365,
+    "threshold_b": 0.016784999096820026
+  },
+  {
+    "task": "Tian_all_IL2STAT5",
+    "study": "Tian",
+    "condition": "all",
+    "program": "IL2STAT5",
+    "n_candidates": 143,
+    "n_development": 26,
+    "spearman_AB": -0.02746725105880035,
+    "common_before_feature_match": 180,
+    "threshold_a": 0.015886771267416788,
+    "threshold_b": 0.015763749348999018
+  }
+]

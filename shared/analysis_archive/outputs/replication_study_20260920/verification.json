@@ -1,0 +1,8 @@
+{
+  "traces": 3600,
+  "same_initial_pools": true,
+  "budgets_and_unique": true,
+  "all_endpoints_recomputed": true,
+  "confirmed_labels_never_policy_arguments": true,
+  "source_sha256": "1fabcf83485fc688dd84847fcf166c5fcea0a45fc70639c4095aefcb8cfb730e"
+}

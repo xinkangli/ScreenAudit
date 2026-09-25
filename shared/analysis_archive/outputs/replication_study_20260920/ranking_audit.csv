@@ -1,0 +1,16 @@
+task,study,spearman_policy_ranking,winner_A,winner_B,winner_transfer
+Frangieh_Coculture_IFNG,Frangieh,0.4642857142857144,gated_random,gated_random,True
+Frangieh_Coculture_IL2STAT5,Frangieh,-0.39285714285714296,diversity,extra_trees,False
+Frangieh_Coculture_TNFA,Frangieh,0.48181205582971587,linear_ucb,fixed_ridge,False
+Frangieh_Control_IFNG,Frangieh,-0.03571428571428572,extra_trees,gated_random,False
+Frangieh_Control_IL2STAT5,Frangieh,0.2882999880625789,gated_random,greedy_ridge,False
+Frangieh_Control_TNFA,Frangieh,0.36037498507822363,gated_random,extra_trees,False
+Frangieh_IFNg_IFNG,Frangieh,-0.41443123283995714,linear_ucb,diversity,False
+Frangieh_IFNg_IL2STAT5,Frangieh,-0.4684874806016907,extra_trees,gated_random,False
+Frangieh_IFNg_TNFA,Frangieh,-0.4504687313477795,old_controller,fixed_ridge,False
+Papalexi_IFNg_IFNG,Papalexi,0.7777777777777779,diversity,diversity,True
+Papalexi_IFNg_IL2STAT5,Papalexi,0.9701425001453319,diversity,diversity,True
+Papalexi_IFNg_TNFA,Papalexi,1.0,diversity,diversity,True
+Tian_all_IFNG,Tian,0.5714285714285715,diversity,old_controller,False
+Tian_all_IL2STAT5,Tian,0.7142857142857144,diversity,diversity,True
+Tian_all_TNFA,Tian,0.9910312089651149,diversity,diversity,True

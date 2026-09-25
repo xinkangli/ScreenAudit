@@ -1,0 +1,6 @@
+{
+  "source_unchanged_since_lock": true,
+  "exact_loo_check": true,
+  "hidden_label_invariance": true,
+  "supplement_scope": "evaluation only; no policy or parameter refitting; task-wise and seed-holdout winner analyses refine original locked winner diagnostic"
+}

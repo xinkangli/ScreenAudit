@@ -1,0 +1,16 @@
+[
+  {
+    "study": "Shifrut",
+    "condition": "NoStim",
+    "reason": "small cohort per locked rule",
+    "matched": 17,
+    "development": 3
+  },
+  {
+    "study": "Shifrut",
+    "condition": "Stim",
+    "reason": "small cohort per locked rule",
+    "matched": 17,
+    "development": 3
+  }
+]

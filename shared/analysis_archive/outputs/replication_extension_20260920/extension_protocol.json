@@ -1,0 +1,14 @@
+{
+  "locked_utc": "2026-09-20T02:53:52.222975+00:00",
+  "motivation": "Initial universal inflation criterion failed; Frangieh task-wide and seed-holdout winner inflation positive, Papalexi counterexample. Preserve both.",
+  "new_studies": [
+    "TianKampmann2021_CRISPRi",
+    "DixitRegev2016"
+  ],
+  "selection_reason": "new independent studies with explicit guide IDs; no outcome scores inspected before this lock",
+  "primary_followup": "Test task-wide winner chosen on discovery A versus independent guide B, then selection using seeds0..14 and evaluation seeds15..29. Seek confirmation in at least one of two new studies while retaining initial Frangieh/Papalexi.",
+  "unchanged": "all8 policies, feature projection, program library, QC20cells/4dev/12candidates, threshold, 30seeds, budgets, score; no method tuning",
+  "new_data_adapter": "single perturbation nperts<=1; controls perturbation==control; within study all cells, lexically sorted guides per target alternate A/B; targets taken from perturbation for Tian and target for Dixit; separate NT guide sets for control",
+  "scope": "follow-up selected after first-stage results, explicitly not original confirmatory primary hypothesis",
+  "source_sha256": "1fabcf83485fc688dd84847fcf166c5fcea0a45fc70639c4095aefcb8cfb730e"
+}

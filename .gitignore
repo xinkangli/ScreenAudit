@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+~$*
+best_model.pt
+*.h5ad
