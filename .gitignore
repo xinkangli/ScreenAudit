@@ -4,3 +4,16 @@ __pycache__/
 ~$*
 best_model.pt
 *.h5ad
+
+# Exclude document-authoring assets and generated images.
+/authoring/
+*.docx
+*.doc
+*.pptx
+*.tex
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+report_inputs.zip

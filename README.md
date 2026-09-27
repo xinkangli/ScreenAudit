@@ -1,28 +1,25 @@
 # ScreenAudit
 
-Paired evaluation of sequential screening under policy selection.
+Code and frozen data for replaying numerical policies in sequential perturbation screening.
 
-Associated manuscript: A paired evaluation framework for policy selection in sequential perturbation screening.
-Authors: Xinkang Li, Xueyan Zhou and Xiaoxing Yin.
+## Contents
 
-## Scientific scope
+- `shared/analysis_archive/scripts/replication_study_20260920/`: data adapters, acquisition policies, verification and statistical analysis.
+- `shared/analysis_archive/outputs/`: frozen candidate arrays, task definitions, protocols, trajectories and numerical results.
+- `scGPT_extension/`: representation experiment code, vocabulary, projection arrays, checkpoint metadata and results.
+- `smoke_check.py`: source-hash and frozen-array checks; this is not a full experiment rerun.
+- `requirements-recorded.txt`: recorded dependencies.
+- `PACKAGE_SHA256.json`: current tracked-file hashes, excluding the manifest itself.
 
-The framework separates a fixed policy from an A-selected winner, follows the same selected genes onto archived readout B, and records acquisition budgets, comparison costs and the unit of uncertainty. The main archive has 15 tasks, eight numerical policies and 30 matched initial pools (3,600 runs). The scGPT extension contains 360 new trajectories plus 720 comparator replays. These are archived-data numerical experiments, not new independent-donor replications.
+The main archive contains 15 tasks, eight policies and 30 initial-pool seeds (3,600 runs). The representation experiment contains 360 scGPT trajectories and 720 comparator replays. These are computational replays of archived measurements, not new biological replicates.
 
-## Files
+## Environment
 
-- shared/analysis_archive: original numerical code, frozen candidate arrays, protocols, trajectories and summary data.
-- scGPT_extension: checkpoint provenance, frozen projection, run script and results for the supplementary representation example.
-- authoring: retained figure/document construction scripts, including the revised Fig. 1 source. Some scripts depend on the original manuscript workspace and are not standalone build commands.
-- smoke_check.py: checks the packaged source hash and frozen task arrays; does not rerun the experiments.
-
-## Recorded environment
-
-The Linux analysis used Python 3.9.18, NumPy 1.26.4, pandas 2.3.2, SciPy 1.13.1, scikit-learn 1.6.1, AnnData 0.10.9, h5py 3.14.0, safetensors 0.7.0 and Matplotlib 3.9.4. The extension also used PyTorch 2.6.0+cpu. See the original environment files. A new cross-platform install has not been certified. Full rerun time and minimum memory are not specified.
+The recorded Linux environment used Python 3.9.18, NumPy 1.26.4, pandas 2.3.2, SciPy 1.13.1, scikit-learn 1.6.1, AnnData 0.10.9, h5py 3.14.0, safetensors 0.7.0 and Matplotlib 3.9.4. The scGPT code also used PyTorch 2.6.0+cpu. See the environment JSON files. The requirements file records the original environment; it does not certify every platform.
 
 ## Replay from frozen arrays
 
-Work in a disposable extracted copy. Existing derived outputs in that copy will be replaced.
+Use a disposable working copy because analysis commands overwrite derived results. Execute these commands in order:
 
 ```bash
 python smoke_check.py
@@ -35,12 +32,19 @@ python scripts/replication_study_20260920/selection_audit.py
 python scripts/replication_study_20260920/robustness.py
 ```
 
-Do not invoke the one-time lock or follow-up append operations on the populated archive. The frozen-array replay does not require source h5ad files or model downloads. Raw extraction requires those external files and the original feature cache; see the detailed archived README and provenance.
+Later stages consume earlier outputs. Some analysis scripts also create diagnostic plots locally; generated images are not tracked. The run stage uses up to six processes. Do not repeat the one-time lock or follow-up append operations in the populated archive.
 
-## Supplementary representation example
+Frozen-array replay does not require raw h5ad files or model downloads. Rebuilding the arrays requires the original h5ad resources, feature cache and projection inputs described in the data audits and `shared/Original_Provenance.md`.
 
-The recorded script expects outputs/replication_study_20260920 relative to its working directory and best_model.pt beside run.py. To rerun it in an extracted copy, place the published checkpoint alongside scGPT_extension/run.py and launch that script with shared/analysis_archive as working directory. The script overwrites derived extension records, including protocol.json, so preserve the original copy. The model publisher is https://huggingface.co/wanglab/scGPT-human at revision a24c237737a40f3720f75abb555489e9fe753be6. The checkpoint SHA256 is 6cb5d451ab5c4b33eb673adbe4fddc61d2389df1b89b7651a9fe2e557572b922. Full contextual transformer inference was not used.
+## scGPT representation experiment
 
-## Version and license
+Place `best_model.pt` beside `scGPT_extension/run.py`, then launch it with `shared/analysis_archive` as the working directory:
 
-This local submission package has a SHA256 manifest. A GitHub release, commit identifier and archival DOI have not been assigned by this packaging operation. Authors should choose a code license consistent with ownership and third-party terms before public distribution; none is silently assigned here. Model and source-data terms remain those of their respective providers.
+```bash
+cd shared/analysis_archive
+python ../../scGPT_extension/run.py
+```
+
+This overwrites derived extension records, including protocol.json; preserve an original copy. The checkpoint source is `wanglab/scGPT-human`, revision `a24c237737a40f3720f75abb555489e9fe753be6`. Expected SHA256: `6cb5d451ab5c4b33eb673adbe4fddc61d2389df1b89b7651a9fe2e557572b922`.
+
+The experiment uses static gene-token embeddings with normalization and PCA, not full contextual transformer inference. Checkpoint weights and raw h5ad files are not included. Model and source-data terms remain those of their providers.
